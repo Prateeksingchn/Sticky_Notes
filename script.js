@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <option value="bg-red-100">Red</option>
           </select>
           <div id="btn-container" class="flex justify-end">
-            <button id="submitBtn" onclick="createNote()" class="bg-green-500 text-white p-2 rounded mr-2">Create Note</button>
-            <button id="closeBtn" onclick="closePopup()" class="bg-gray-500 text-white p-2 rounded">Close</button>
+            <button id="submitBtn" onclick="createNote()" class="bg-green-500 text-white px-4 py-2 rounded mr-2">Create Note</button>
+            <button id="closeBtn" onclick="closePopup()" class="bg-gray-500 text-white px-4 py-2 rounded">Close</button>
           </div>
         </div>
       `;
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const popupContainer = document.createElement('div');
         popupContainer.className = 'fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75';
         popupContainer.innerHTML = `
-          <div id="editing-container" class="bg-white rounded-lg p-6 w-96">
+          <div id="editing-container" class="bg-white rounded-2xl p-6 w-96">
             <h1 class="text-xl font-bold mb-4">Edit Note</h1>
             <textarea id="note-text" class="w-full h-32 p-2 border rounded mb-4">${noteToEdit.text}</textarea>
             <select id="note-color" class="w-full p-2 border rounded mb-4">
