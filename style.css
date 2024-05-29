@@ -45,6 +45,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   gap: 10px;
+  padding: 10px 20px;
+  padding-right: 32px;
 }
 
 ul {
@@ -212,7 +214,7 @@ textarea:focus {
   #deleteBtn {
   padding: 12px 15px;
   font-size: 12px;
-}
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {
@@ -225,6 +227,11 @@ textarea:focus {
   li{
     height: 330px;
     width: 330px;
+  }
+  #editBtn,
+  #deleteBtn {
+  padding: 12px 15px;
+  font-size: 15px;
   }
 }
 
