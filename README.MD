@@ -14,7 +14,7 @@ This is a modern sticky note taking application built with HTML, CSS, and JavaSc
 - **Timestamps**: Each note displays the date and time it was created or last edited in the format "29 June 2024".
 
 ---
-## Project Link: [click here](https://sticky-notes-app-psi.vercel.app/)
+## Project Link: [click here](https://sticky-notes-app-beryl.vercel.app/)
 
 ## Technologies Used
 
