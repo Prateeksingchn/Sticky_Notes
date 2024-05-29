@@ -1,4 +1,3 @@
-Certainly! Here's the updated README file with a placeholder for the screenshot of your app:
 
 ---
 
