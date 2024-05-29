@@ -1,4 +1,3 @@
-Certainly! Here's the updated README file with a placeholder for the screenshot of your app:
 
 ---
 
@@ -13,6 +12,8 @@ This is a modern sticky note taking application built with HTML, CSS, and JavaSc
 - **Delete Notes**: Remove notes that are no longer needed.
 - **Search Notes**: Search through notes using the search bar.
 - **Timestamps**: Each note displays the date and time it was created or last edited in the format "29 June 2024".
+
+## Project Link: [click here](https://sticky-notes-app-psi.vercel.app/)
 
 ## Technologies Used
 
@@ -94,9 +95,8 @@ This project is licensed under the MIT License.
 
 ### Contact
 
-Your Name - [prateeksinghchouhan007@gmail.com](mailto:prateeksinghchouhan007@gmail.com)
+Email - [prateeksinghchouhan007@gmail.com](mailto:prateeksinghchouhan007@gmail.com)
 
-Project Link: [https://github.com/yourusername/sticky-note-app](https://github.com/yourusername/sticky-note-app)
 
 ---
 
