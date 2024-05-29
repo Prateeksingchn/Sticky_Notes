@@ -131,7 +131,7 @@ textarea {
   box-sizing: border-box;
   border-radius: 6px;
   border: 1px solid #d1d5db;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #374151;
   transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }

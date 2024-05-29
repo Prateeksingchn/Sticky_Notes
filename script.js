@@ -171,9 +171,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const formattedTime = dateTime.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
   
       listItem.innerHTML = `
-        <span class="note-text flex-grow">${note.text}</span>
+        <span class="note-text w-full text-start">${note.text}</span>
         <div id="noteBtns-container" class="flex justify-between gap-8 items-center mt-2">
-          <div class="note-date-time flex flex-col items-start text-gray-500 text-sm">
+          <div class="note-date-time flex flex-col items-start text-gray-800 text-sm">
             <span>${formattedDate}</span>
             <p>${formattedTime}</p>
           </div>
