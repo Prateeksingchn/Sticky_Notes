@@ -9,14 +9,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-  <div id="container" class="bg-[#fff] rounded-lg w-[100%] max-w-[1120px] h-[80vh] p-4 flex flex-col  cursor-pointer text-center overflow-hidden ">
+  <div id="container" class="bg-[#fff] rounded-2xl w-[100%] max-w-[1117px] h-[85vh] p-4 flex flex-col  cursor-pointer text-center overflow-hidden ">
     <div id="list-header" class="flex flex-row-reverse bg-[#f9f9f9] rounded-xl p-5 justify-between items-center mb-5">
-      <input type="text" id="search" class="w-[80%] mr-10 p-3 border-2 border-[#dadada] rounded-lg" placeholder="Search notes...">
+      <div class="relative w-[80%]">
+        <input type="text" id="search" class="w-[100%] mr-10 p-3 pl-10 border-2 border-[#dadada] rounded-lg" placeholder="Search notes...">
+        <i class="absolute inset-y-0 left-3  flex items-center justify-center text-gray-400 fas fa-search"></i>
+      </div>
       <div id="addNoteDiv" onclick="popup()">
         <i class="fa-solid fa-plus"></i>
       </div>
     </div>
-    <h1 class="text-5xl font-bold mb-4 text-start ml-3 ">Notes</h1>
+    <h1 class="text-6xl font-semibold mb-4 text-start ml-3 ">Notes</h1>
     <div id="list-container">
       <ul id="notes-list"></ul>
     </div>

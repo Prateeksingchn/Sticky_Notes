@@ -8,22 +8,21 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
 #container::-webkit-scrollbar {
   display: none;
 }
-#container {
 
+#container {
   box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   overflow-y: auto;
 }
 
-
-
 #addNoteDiv {
-  background-color: #f9f9f9;
+  background-color: #2a1d1d;
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 12px;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -38,7 +37,7 @@ body {
 
 #addNoteDiv i {
   font-size: 24px;
-  color: #888;
+  color: white;
 }
 
 /* List CSS */
@@ -56,18 +55,16 @@ ul {
   flex-wrap: wrap;
 }
 
-
 li {
   background-color: #fff385;
   margin: 5px;
   padding: 25px;
-  border-radius: 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 15px;
+  display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-start;
   justify-content: space-between;
-  height: 300px;
+  height: 255px;
   width: 255px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
@@ -86,18 +83,18 @@ li span {
 
 #editBtn,
 #deleteBtn {
-  background-color: #c6aaff;
+  background-color: rgba(16, 15, 15, 0.519);
   color: #fff;
   border: none;
-  padding: 8px 15px;
+  padding: 10px 12px;
   margin: 5px;
   cursor: pointer;
-  border-radius: 10px;
-  font-size: 12px;
+  border-radius: 50px;
+  font-size: 10px;
 }
 
 #editBtn {
-  background-color: #8c53ff;
+  background-color: rgba(26, 25, 25, 0.526);
 }
 
 #deleteBtn:hover {
@@ -114,49 +111,68 @@ li span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 300px;
-  background-color: white;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border-radius: 8px;
+  width: 550px;
+  max-width: 90%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
   justify-content: center;
 }
 
 textarea {
-  width: 300px;
-  height: 150px;
+  width: 100%;
+  height: 200px;
   margin: 10px 0;
-  padding: 10px;
+  padding: 15px;
   box-sizing: border-box;
-  border-radius: 4px;
-  border: 2px solid #8c53ff;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 0.875rem;
+  color: #374151;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
 }
 
 #btn-container {
   display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 #submitBtn,
 #closeBtn {
-  width: 100px;
-  background-color: #8c53ff;
+  background-color: #6366f1;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
   border: none;
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 6px;
+  padding: 10px 16px;
   cursor: pointer;
-  margin: 10px;
+  margin-left: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#submitBtn:hover {
+  background-color: #4f46e5;
 }
 
 #closeBtn {
-  background-color: gainsboro;
+  background-color: #d1d5db;
+  color: #374151;
+}
+
+#closeBtn:hover {
+  background-color: #c4c9d3;
 }
 
 /* Editing Popup CSS */
@@ -166,32 +182,23 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  height: 300px;
-  background-color: white;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  border-radius: 8px;
+  max-width: 90%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
   justify-content: center;
 }
-
-#submitBtn,
-#closeBtn {
-  width: 100px;
-  background-color: #8c53ff;
-  color: #fff;
+/* Date and Time CSS */
+.note-date {
   font-size: 14px;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px;
+  color: gray;
 }
 
-#closeBtn {
-  background-color: gainsboro;
+.note-time {
+  font-size: 12px;
+  color: gray;
 }
