@@ -172,8 +172,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
       listItem.innerHTML = `
         <span class="note-text w-full text-start">${note.text}</span>
-        <div id="noteBtns-container" class="flex justify-between gap-8 items-center mt-2">
-          <div class="note-date-time flex flex-col items-start text-gray-800 text-sm">
+        <div id="noteBtns-container" class="flex justify-between lg:gap-8 gap-14 items-center mt-2">
+          <div class="note-date-time flex flex-col items-start pl-2 text-gray-800 text-sm">
             <span>${formattedDate}</span>
             <p>${formattedTime}</p>
           </div>

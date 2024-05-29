@@ -83,18 +83,6 @@ Each note contains:
 - Background color
 - Date and time of creation/last edit
 
-Example:
-```html
-<li class="p-4 rounded-3xl shadow-lg m-2 flex flex-col bg-yellow-200">
-  <span class="note-date text-gray-500 text-sm">29 June 2024</span>
-  <span class="note-time text-gray-500 text-sm">14:30</span>
-  <span class="note-text flex-grow">This is a sample note.</span>
-  <div id="noteBtns-container" class="flex justify-end mt-2">
-    <button id="editBtn" onclick="editNote(1622540000000)" class="bg-blue-500 text-white p-1 rounded mr-1"><i class="fa-solid fa-pen"></i></button>
-    <button id="deleteBtn" onclick="deleteNote(1622540000000)" class="bg-red-500 text-white p-1 rounded"><i class="fa-solid fa-trash"></i></button>
-  </div>
-</li>
-```
 
 ### Contributing
 
@@ -106,11 +94,10 @@ This project is licensed under the MIT License.
 
 ### Contact
 
-Your Name - [your.email@example.com](mailto:prateeksinghchouhan007@gmail.com)
+Your Name - [prateeksinghchouhan007@gmail.com](mailto:prateeksinghchouhan007@gmail.com)
 
 Project Link: [https://github.com/yourusername/sticky-note-app](https://github.com/yourusername/sticky-note-app)
 
 ---
 
-Replace `path/to/your/screenshot.png` with the actual path to your screenshot file.
 
