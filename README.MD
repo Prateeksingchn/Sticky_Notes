@@ -13,8 +13,9 @@ This is a modern sticky note taking application built with HTML, CSS, and JavaSc
 - **Search Notes**: Search through notes using the search bar.
 - **Timestamps**: Each note displays the date and time it was created or last edited in the format "29 June 2024".
 
+---
 ## Project Link: [click here](https://sticky-notes-app-psi.vercel.app/)
-
+---
 ## Technologies Used
 
 - HTML
@@ -31,7 +32,7 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
 
 1. Clone the repository or download the ZIP file.
     ```sh
-    git clone https://github.com/yourusername/sticky-note-app.git
+    git clone https://github.com/Prateeksingchn/sticky-note-app.git
     ```
 2. Navigate to the project directory.
     ```sh
@@ -96,7 +97,6 @@ This project is licensed under the MIT License.
 ### Contact
 
 Email - [prateeksinghchouhan007@gmail.com](mailto:prateeksinghchouhan007@gmail.com)
-
 
 ---
 
