@@ -15,7 +15,7 @@ This is a modern sticky note taking application built with HTML, CSS, and JavaSc
 
 ---
 ## Project Link: [click here](https://sticky-notes-app-psi.vercel.app/)
----
+
 ## Technologies Used
 
 - HTML
