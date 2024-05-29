@@ -29,7 +29,7 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
 
 1. Clone the repository or download the ZIP file.
     ```sh
-    git clone https://github.com/yourusername/sticky-note-app.git
+    git clone https://github.com/Prateeksingchn/sticky-note-app.git
     ```
 2. Navigate to the project directory.
     ```sh
