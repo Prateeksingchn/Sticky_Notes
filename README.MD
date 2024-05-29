@@ -93,9 +93,9 @@ This project is licensed under the MIT License.
 
 ### Contact
 
-Your Name - [prateeksinghchouhan007@gmail.com](mailto:prateeksinghchouhan007@gmail.com)
+Email - [prateeksinghchouhan007@gmail.com](mailto:prateeksinghchouhan007@gmail.com)
 
-Project Link: [https://github.com/yourusername/sticky-note-app](https://github.com/yourusername/sticky-note-app)
+Project Link: [click here](https://sticky-notes-app-psi.vercel.app/)
 
 ---
 
